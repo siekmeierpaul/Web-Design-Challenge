@@ -32,18 +32,58 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="comparison.html" tabindex="-1" aria-disabled="true">
+            <a class="nav-link" href="comparison.html">
               Comparison
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="data.html" tabindex="-1" aria-disabled="true">
+            <a class="nav-link" href="data.html">
               Data
             </a>
           </li>
         </ul>
       </div>
     </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>
+            Summary:  Latitude vs. X
+          </h1>
+          <a href="visualizations\temperature.html">
+            <img src="assets/Fig1.png" class="img-responsive" width="250" height="250" align="left">
+          </a>
+          <p>
+            The purpose of this project was to analyze how weather changes as you get closer to the equator.  
+            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+          </p>
+          <p>
+            After assembling the dataset, we Matplotlib to plot various aspectws of the weather vs. latitude.  
+            Factors we looked included:  temperature, cloudiness, wind speed, and humidity.  
+            This site provides the source data and visualizations created as part of the analysis, 
+            as well as explanations and descriptions of any trends and correlations witnessed.
+          </p>
+        </div>
+        <div class="col-md-4 sidebar">
+          <h2>
+            Visualizations
+          </h2>
+          <a href="visualizations\temperature.html">
+            <img src="assets/Fig1.png" class="img-responsive" width="150" height="150">
+          </a>
+          <a href="visualizations\humidity.html">
+            <img src="assets/Fig2.png" class="img-responsive" width="150" height="150">
+          </a>
+          <a href="visualizations\cloudiness.html">
+            <img src="assets/Fig3.png" class="img-responsive" width="150" height="150">
+          </a>
+          <a href="visualizations\wind.html">
+            <img src="assets/Fig4.png" class="img-responsive" width="150" height="150">
+          </a>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
